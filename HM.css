@@ -1,0 +1,63 @@
+.landing-background {
+    background: url(img/backgroundOne.png);
+    height: 633px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.collapse {
+    display: none;
+}
+
+.landing-content {
+    width: 100%;
+    margin-left: 140px;
+    margin-top: -70px;
+}
+
+.landing-content h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 53px;
+    line-height: 50px;
+    letter-spacing: -0.035em;
+    color: #2D6936;
+}
+
+.landing-content p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+    color: #4A4A4A;
+}
+
+button {
+    background: linear-gradient(90deg, #2D6936 -6.45%, #00A419 95.97%);
+    cursor: pointer;
+}
+
+.btn {
+    color: white;
+}
+
+.fa-arrow-right {
+    margin-left: 10px;
+}
+
+.landing-image {
+    height: 500px;
+}
+
+.girl-bg {
+    width: 750px;
+    height: 670px;
+    margin-top: -110px;
+    margin-right: 80px;
+}
