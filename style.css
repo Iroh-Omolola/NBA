@@ -95,7 +95,7 @@
                     .carousel-indicators {
                         position: relative;
                         top: 450px;
-                        left: -420px;
+                        left: -470px;
                     }
                     
                     .carousel-indicators li {
@@ -157,9 +157,10 @@
                     }
                     
                     .landing-content {
-                        width: 100%;
+                        width: 90%;
                         margin-top: -240px;
                         letter-spacing: 52%;
+                        margin-left: 70px;
                     }
                     
                     .landing-content h1 {
@@ -209,12 +210,11 @@
                         height: 603px;
                         display: flex;
                         width: 100%;
-                        justify-items: center;
                         align-items: center;
+                        margin: 0px auto;
                     }
                     
                     .landing-content-Two {
-                        margin-left: 60px;
                         margin-top: -100px;
                     }
                     
@@ -254,7 +254,7 @@
                         width: 570px;
                         height: 570px;
                         margin-top: -30px;
-                        margin-left: 120px;
+                        margin-left: 80px;
                     }
                     /* Landing PageThree */
                     
@@ -583,5 +583,31 @@
                         }
                         .btn {
                             font-size: 10px;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 351px) {
+                        .carousel-indicators {
+                            left: -100px;
+                        }
+                        .girl-bg {
+                            width: 300px;
+                            height: 300px;
+                            margin-left: -40px;
+                            margin-top: -50px;
+                        }
+                        .landing-content {
+                            padding-left: 70px;
+                            margin-top: -8px;
+                        }
+                        nav {
+                            padding: 12px 10px;
+                        }
+                        .landing-content h1 {
+                            margin-top: 5px;
+                            font-size: 31px;
+                            line-height: 33px;
+                            letter-spacing: -0.035em;
+                            color: #2D6936;
                         }
                     }
