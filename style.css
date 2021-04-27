@@ -20,21 +20,30 @@ body {
 .navbar-toggler {
     display: none;
 }
-
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 70px;
+    align-items: center;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    box-shadow: 1px 1px 1px rgb(223, 219, 219);
+}
 .topnav {
     display: flex;
     text-decoration: none;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(206, 206, 206);
-    box-shadow: 1px 1px 1px rgb(223, 219, 219);
     text-decoration: none;
-    line-height: 70px;
-    justify-content: space-between;
+}
+.nav-list{
+    padding-top: 18px;
 }
 
 .image-logo {
-    margin-left: 80px;
+    align-items: center;
+    display: flex;
 }
 
 .logo1 {
@@ -66,7 +75,19 @@ li a {
     display: flex;
     margin-right: 150px;
 }
-
+/*Hamburger icon*/
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    border-radius: 1px;
+    background-color: #2D6936;;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
 
 /* Landing PageOne */
 
@@ -391,4 +412,14 @@ button {
     width: 70%;
     color: #000000;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .burger{
+         display: block;
+    }
+    .nav-list{
+        display: none;
+    }
+
 }
