@@ -9,6 +9,7 @@
      height: 100%vh;
      font-family: 'Ubuntu', 'Montserrat', sans-serif;
      padding-top: -3rem;
+     overflow-x: hidden;
  }
  /* ===============Landing Page1 ===================== */
  /******* Nav*****/
