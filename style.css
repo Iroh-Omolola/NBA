@@ -1,742 +1,784 @@
-       * {
-       margin: 0;
-       box-sizing: border-box;
-       padding: 0;
-   }
-   
-   body {
-       width: 100%vw;
-       height: 100%vh;
-       font-family: 'Ubuntu', 'Montserrat', sans-serif;
-       padding-top: -3rem;
-   }
-   /* ===============Landing Page1 ===================== */
-   /******* Nav*****/
-   
-   .navbar-toggler {
-       display: none;
-   }
-   
-   nav {
-       width: 100%;
-       height: auto;
-       display: flex;
-       justify-content: space-between;
-       padding: 12px 70px;
-       align-items: center;
-       border-bottom: 1px solid rgb(206, 206, 206);
-       box-shadow: 1px 1px 1px rgb(223, 219, 219);
-   }
-   
-   .topnav {
-       display: flex;
-       text-decoration: none;
-       width: 100%;
-       background-color: rgb(255, 255, 255);
-       text-decoration: none;
-   }
-   
-   .nav-list {
-       padding-top: 18px;
-   }
-   
-   .image-logo {
-       align-items: center;
-       display: flex;
-   }
-   
-   .logo1 {
-       margin-top: 10px;
-       margin-right: -15px;
-   }
-   
-   .logo2 {
-       margin-right: 15px;
-   }
-   
-   .topnav li {
-       list-style: none;
-       margin-left: 20px;
-       font-size: 14px;
-   }
-   
-   li a {
-       text-decoration: none;
-       font-style: normal;
-       font-weight: 500;
-       font-size: 14px;
-       line-height: 16px;
-       letter-spacing: 0.02em;
-       color: #2D6936;
-   }
-   
-   .nav-list {
-       display: flex;
-       margin-right: 150px;
-   }
-   /*Hamburger icon*/
-   
-   .burger {
-       display: none;
-       cursor: pointer;
-   }
-   
-   .burger div {
-       width: 25px;
-       height: 3px;
-       border-radius: 1px;
-       background-color: #2D6936;
-       ;
-       margin: 5px;
-       transition: all 0.3s ease;
-   }
-   /* Landing PageOne */
-   
-   .carousel-indicators {
-       position: relative;
-       top: 450px;
-       left: -415px;
-   }
-   
-   .carousel-indicators li {
-       border-radius: 50%;
-       width: 12px;
-       height: 12px;
-       background-color: #404040;
-   }
-   
-   .bd-placeholder-img {
-       font-size: 1.125rem;
-       text-anchor: middle;
-       -webkit-user-select: none;
-       -moz-user-select: none;
-       user-select: none;
-   }
-   
-   body {
-       padding-bottom: 3rem;
-       color: #5a5a5a;
-   }
-   /* CUSTOMIZE THE CAROUSEL --------------------------------------------------
+                            * {
+                            margin: 0;
+                            box-sizing: border-box;
+                            padding: 0;
+                        }
+                        
+                        body {
+                            width: 100%vw;
+                            height: 100%vh;
+                            font-family: 'Ubuntu', 'Montserrat', sans-serif;
+                            padding-top: -3rem;
+                        }
+                        /* ===============Landing Page1 ===================== */
+                        /******* Nav*****/
+                        
+                        .navbar-toggler {
+                            display: none;
+                        }
+                        
+                        nav {
+                            width: 100%;
+                            height: auto;
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 12px 70px;
+                            align-items: center;
+                            border-bottom: 1px solid rgb(206, 206, 206);
+                            box-shadow: 1px 1px 1px rgb(223, 219, 219);
+                        }
+                        
+                        .topnav {
+                            display: flex;
+                            text-decoration: none;
+                            width: 100%;
+                            background-color: rgb(255, 255, 255);
+                            text-decoration: none;
+                        }
+                        
+                        .nav-list {
+                            padding-top: 18px;
+                        }
+                        
+                        .image-logo {
+                            align-items: center;
+                            display: flex;
+                        }
+                        
+                        .logo1 {
+                            margin-top: 10px;
+                            margin-right: -15px;
+                        }
+                        
+                        .logo2 {
+                            margin-right: 15px;
+                        }
+                        
+                        .topnav li {
+                            list-style: none;
+                            margin-left: 20px;
+                            font-size: 14px;
+                        }
+                        
+                        li a {
+                            text-decoration: none;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 16px;
+                            letter-spacing: 0.02em;
+                            color: #2D6936;
+                        }
+                        
+                        .nav-list {
+                            display: flex;
+                            margin-right: 150px;
+                        }
+                        /*Hamburger icon*/
+                        
+                        .burger {
+                            display: none;
+                            cursor: pointer;
+                        }
+                        
+                        .burger div {
+                            width: 25px;
+                            height: 3px;
+                            border-radius: 1px;
+                            background-color: #2D6936;
+                            ;
+                            margin: 5px;
+                            transition: all 0.3s ease;
+                        }
+                        /* Landing PageOne */
+                        
+                        .carousel-indicators {
+                            position: relative;
+                            top: 450px;
+                            left: -415px;
+                        }
+                        
+                        .carousel-indicators li {
+                            border-radius: 50%;
+                            width: 12px;
+                            height: 12px;
+                            background-color: #404040;
+                        }
+                        
+                        .bd-placeholder-img {
+                            font-size: 1.125rem;
+                            text-anchor: middle;
+                            -webkit-user-select: none;
+                            -moz-user-select: none;
+                            user-select: none;
+                        }
+                        
+                        body {
+                            padding-bottom: 3rem;
+                            color: #5a5a5a;
+                        }
+                        /* CUSTOMIZE THE CAROUSEL --------------------------------------------------
 */
-   /* Carousel base class */
-   
-   .carousel {
-       margin-bottom: 4rem;
-   }
-   /* Since positioning the image, we need to help out the caption */
-   
-   .carousel-caption {
-       bottom: 10rem;
-       z-index: 10;
-   }
-   /* Declare heights because of positioning of img element */
-   
-   .carousel-item {
-       height: 32rem;
-   }
-   
-   .carousel-item>img {
-       position: absolute;
-       top: 0;
-       left: 0;
-       min-width: 100%;
-       height: 32rem;
-   }
-   
-   .landing-background {
-       height: 633px;
-       display: flex;
-       width: 100%;
-       align-items: center;
-       margin: 0px auto;
-       padding: 0 100px;
-   }
-   
-   .landing-content {
-       width: 90%;
-       margin-top: -240px;
-       letter-spacing: 52%;
-   }
-   
-   .landing-content h1 {
-       font-family: 'Ubuntu';
-       font-weight: normal;
-       font-size: 53px;
-       line-height: 50px;
-       letter-spacing: -0.035em;
-       color: #2D6936;
-   }
-   
-   .landing-content p {
-       font-family: 'Montserrat';
-       font-weight: normal;
-       font-size: 13px;
-       line-height: 150%;
-       letter-spacing: -0.5px;
-       color: #4A4A4A;
-   }
-   
-   button {
-       background: linear-gradient(90deg, #2D6936 -6.45%, #00A419 95.97%);
-       cursor: pointer;
-   }
-   
-   .btn {
-       color: white;
-   }
-   
-   .fa-arrow-right {
-       margin-left: 10px;
-   }
-   
-   .landing-image {
-       height: 500px;
-   }
-   
-   .girl-bg {
-       width: 550px;
-       height: 580px;
-       margin-top: -150px;
-   }
-   /* Landing PageTwo */
-   
-   .landing-background-Two {
-       background: url(img/Rectangle\ 7.png);
-       height: 603px;
-       display: flex;
-       width: 100%;
-       align-items: center;
-       padding: 0 12px;
-   }
-   
-   .landing-content-Two {
-       margin-top: -100px;
-       width: 100%;
-   }
-   
-   .landing-content-Two h1 {
-       font-family: 'Ubuntu';
-       font-weight: normal;
-       font-size: 53px;
-       line-height: 50px;
-       letter-spacing: -0.035em;
-       color: white;
-   }
-   
-   .landing-content-Two p {
-       font-family: 'Montserrat';
-       font-weight: normal;
-       font-size: 13px;
-       width: 60%;
-       line-height: 150%;
-       letter-spacing: -0.5px;
-       color: #fff;
-   }
-   
-   button {
-       background: linear-gradient(90deg, #2D6936 -6.45%, #00A419 95.97%);
-       cursor: pointer;
-   }
-   
-   .btn {
-       color: white;
-   }
-   
-   .fa-arrow-right {
-       margin-left: 10px;
-   }
-   
-   .landing-image2 img {
-       width: 570px;
-       height: 570px;
-       margin-top: -30px;
-       margin-left: 80px;
-   }
-   /* Landing PageThree */
-   
-   .landing-background-Three {
-       background: #fff;
-       border-radius: 20px 0px;
-       height: 453px;
-       display: flex;
-       width: 100%;
-       justify-items: center;
-       align-items: center;
-       margin: 0 auto;
-   }
-   
-   .landing-content-Three {
-       margin-left: 210px;
-       margin-top: -130px;
-       width: 100%;
-   }
-   
-   .landing-content-Three h1 {
-       font-family: 'Ubuntu';
-       font-weight: normal;
-       font-size: 53px;
-       line-height: 50px;
-       letter-spacing: -0.035em;
-       color: #868686;
-       margin-top: -10px;
-   }
-   
-   .landing-content-Three h6 {
-       font-family: 'Montserrat';
-       font-weight: normal;
-       font-size: 26px;
-       line-height: 150%;
-       letter-spacing: -0.5px;
-       color: #000000;
-   }
-   
-   .landing-content-Three p {
-       font-family: 'Montserrat';
-       font-weight: normal;
-       font-size: 13px;
-       width: 60%;
-       line-height: 150%;
-       letter-spacing: -0.5px;
-       color: #000000;
-   }
-   
-   button {
-       background: linear-gradient(90deg, #2D6936 -6.45%, #00A419 95.97%);
-       cursor: pointer;
-   }
-   
-   .btn {
-       color: white;
-   }
-   
-   .fa-arrow-right {
-       margin-left: 10px;
-   }
-   
-   .landing-image3 img {
-       width: 370px;
-       height: 570px;
-       margin-top: -290px;
-       margin-right: 120px;
-   }
-   /* Landing PageFour */
-   
-   .landing-background-Four {
-       height: 553px;
-       background: #EBEBEB;
-       border-radius: 0px 0px 0px 50px;
-   }
-   
-   .landing-background-PageFour {
-       display: flex;
-       justify-content: center;
-       margin-top: 20px;
-   }
-   
-   .landing-background-Four h1 {
-       padding-top: 30px;
-       text-align: center;
-       font-family: 'Montserrat';
-       font-size: 44px;
-       line-height: 150%;
-       color: #DB7600;
-       letter-spacing: -0.5px;
-   }
-   
-   .landing-content-Four-One {
-       width: 347px;
-       height: 295px;
-       background: #FFFFFF;
-       box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
-       border-radius: 15px 15px 15px 50px;
-       margin-right: 30px;
-   }
-   
-   .landing-content-Four-Two {
-       width: 347px;
-       height: 295px;
-       background: #FFFFFF;
-       box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
-       border-radius: 15px 50px 15px 15px;
-       margin-left: 30px;
-   }
-   
-   .PageFour-Content {
-       margin-left: 33px;
-   }
-   
-   .PageFour-Content h6 {
-       font-family: 'Ubuntu';
-       font-weight: 500;
-       font-size: 12px;
-       line-height: 21px;
-       padding-left: 10px;
-       color: #FFFFFF;
-       background-color: #FFCB59;
-       margin-top: 30px;
-       width: 37%;
-   }
-   
-   .PageFour-Content h5 {
-       font-family: 'Montserrat';
-       font-weight: 600;
-       font-size: 12px;
-       width: 70%;
-       letter-spacing: 0.06em;
-       color: #000000;
-       margin-top: 10px;
-   }
-   
-   .PageFour-Content p {
-       font-family: 'Montserrat';
-       font-weight: 300;
-       font-size: 10px;
-       width: 70%;
-       color: #000000;
-       margin-top: 10px;
-   }
-   
-   @media screen and (max-width: 1000px) {
-       .burger {
-           display: block;
-       }
-       .nav-list {
-           display: none;
-       }
-       .girl-bg {
-           width: 550px;
-           height: 580px;
-       }
-       .landing-background {
-           padding: 0px 18px;
-       }
-       .landing-content {
-           margin-left: 40px;
-       }
-       .carousel-indicators {
-           top: 450px;
-           left: -380px;
-       }
-       .landing-content-Three {
-           margin-left: 90px;
-           margin-top: -60px;
-           width: 100%;
-       }
-       .landing-image3 img {
-           width: 370px;
-           height: 570px;
-           margin-top: -290px;
-           margin-right: 100px;
-       }
-   }
-   
-   @media screen and (max-width: 990px) {
-       .girl-bg {
-           width: 550px;
-           height: 580px;
-       }
-       .landing-background {
-           padding: 0px;
-       }
-       .landing-content {
-           margin-left: -20px;
-       }
-       .carousel-indicators {
-           top: 450px;
-           left: -340px;
-       }
-       .landing-image2 img {
-           width: 500px;
-           height: 500px;
-           margin-top: -30px;
-           margin-left: -5px;
-       }
-       .landing-content-Two {
-           margin-top: -5px;
-       }
-       .landing-content-Two p {
-           width: 90%;
-       }
-   }
-   
-   @media screen and (max-width: 966px) {
-       .landing-image3 img {
-           margin-right: 40px;
-       }
-   }
-   
-   @media screen and (max-width: 908px) {
-       .landing-content-Three {
-           margin-left: 50px;
-       }
-   }
-   
-   @media screen and (max-width: 864px) {
-       .landing-content-Three {
-           margin-left: 60px;
-       }
-       .landing-image3 img {
-           margin-right: 20px;
-       }
-   }
-   
-   @media screen and (max-width: 858px) {
-       .landing-content-Three {
-           margin-left: 40px;
-       }
-       .landing-image3 img {
-           margin-right: 1px;
-       }
-   }
-   
-   @media screen and (max-width: 908px) {
-       .landing-content-Three {
-           margin-left: 50px;
-       }
-       @media screen and (max-width: 864px) {
-           .landing-content-Three {
-               margin-left: 60px;
-           }
-           .landing-image3 img {
-               margin-right: 20px;
-           }
-       }
-       @media screen and (max-width: 966px) {
-           .landing-image3 img {
-               margin-right: 40px;
-           }
-       }
-       @media screen and (max-width: 908px) {
-           .landing-content-Three {
-               margin-left: 50px;
-           }
-       }
-       /* you missed a curly brace on line 476 */
-       @media screen and (max-width: 864px) {
-           .landing-content-Three {
-               margin-left: 60px;
-           }
-           .landing-image3 img {
-               margin-right: 20px;
-           }
-       }
-       @media screen and (max-width: 858px) {
-           .landing-content-Three {
-               margin-left: 40px;
-           }
-           .landing-image3 img {
-               margin-right: 1px;
-           }
-       }
-       @media screen and (max-width: 858px) {
-           .landing-content-Three {
-               margin-left: 40px;
-           }
-           .landing-image3 img {
-               width: 300px;
-               height: 500px;
-               margin-top: -200px;
-               margin-right: 2px;
-           }
-       }
-       @media screen and (max-width: 780px) {
-           nav {
-               padding: 12px 25px;
-           }
-       }
-       @media screen and (max-width: 767px) {
-           .girl-bg {
-               width: 500px;
-               height: 500px;
-               margin-left: -30px;
-           }
-           .landing-background {
-               padding: 0px 30px;
-           }
-           .landing-content {
-               margin-left: -110px;
-           }
-           .carousel-indicators {
-               left: -315px;
-           }
-           .landing-image2 img {
-               width: 450px;
-               height: 450px;
-               margin-top: -30px;
-               margin-left: -10px;
-           }
-           .landing-content-Two {
-               margin-top: -5px;
-           }
-           .landing-content-Two p {
-               width: 90%;
-           }
-       }
-       @media screen and (max-width: 715px) {
-           .girl-bg {
-               width: 500px;
-               height: 500px;
-               margin-left: -50px;
-           }
-           .carousel-indicators {
-               left: -300px;
-           }
-           .landing-image2 img {
-               width: 450px;
-               height: 450px;
-               margin-top: -30px;
-               margin-left: -30px;
-           }
-       }
-       @media screen and (max-width: 681px) {
-           .carousel-indicators {
-               left: -300px;
-           }
-           .girl-bg {
-               width: 450px;
-               height: 450px;
-               margin-left: -20px;
-               margin-top: -100px;
-           }
-           .landing-content {
-               padding-left: 20px;
-           }
-           .carousel-indicators {
-               left: -290px;
-           }
-           .landing-image2 img {
-               margin-top: -30px;
-               margin-left: -50px;
-           }
-       }
-       @media screen and (max-width: 649px) {
-           .carousel-indicators {
-               left: -300px;
-           }
-           .girl-bg {
-               width: 350px;
-               height: 350px;
-               margin-left: -10px;
-               margin-top: -85px;
-           }
-           .landing-content {
-               padding-left: 50px;
-           }
-           .carousel-indicators {
-               left: -255px;
-           }
-           .landing-image2 img {
-               width: 400px;
-               height: 400px;
-               margin-top: -30px;
-               margin-left: -50px;
-           }
-           .landing-content-Two {
-               margin-left: -100px;
-               width: 70%;
-               margin-top: -15px;
-           }
-       }
-       @media screen and (max-width: 599px) {
-           .carousel-indicators {
-               left: -300px;
-           }
-           .landing-background {
-               display: grid;
-               margin-left: 30px;
-           }
-           .landing-content {
-               margin-top: 10px;
-           }
-           .carousel-indicators {
-               left: -230px;
-               top: 510px;
-           }
-           .landing-background-Two {
-               display: flex;
-               flex-direction: column;
-           }
-       }
-       @media screen and (max-width: 521px) {
-           .carousel-indicators {
-               left: -220px;
-               top: 540px;
-           }
-       }
-       @media screen and (max-width: 501px) {
-           .carousel-indicators {
-               left: -210px;
-               top: 540px;
-           }
-       }
-       @media screen and (max-width: 475px) {
-           .carousel-indicators {
-               left: -190px;
-               top: 540px;
-           }
-       }
-       @media screen and (max-width: 435px) {
-           .carousel-indicators {
-               left: -170px;
-           }
-       }
-       @media screen and (max-width: 399px) {
-           .carousel-indicators {
-               left: -150px;
-           }
-       }
-       @media screen and (max-width: 399px) {
-           .carousel-indicators {
-               left: -150px;
-           }
-           .girl-bg {
-               margin-left: -40px;
-               margin-top: -90px;
-           }
-           .landing-content {
-               margin-top: -8px;
-           }
-           nav {
-               padding: 12px 10px;
-           }
-           button {
-               background: linear-gradient(90deg, #2D6936 -6.45%, #00A419 95.97%);
-               cursor: pointer;
-               width: 100px;
-               height: 30px;
-           }
-           .btn {
-               font-size: 10px;
-           }
-       }
-       @media screen and (max-width: 351px) {
-           .carousel-indicators {
-               left: -100px;
-           }
-           .girl-bg {
-               width: 300px;
-               height: 300px;
-               margin-left: -40px;
-               margin-top: -50px;
-           }
-           .landing-content {
-               padding-left: 70px;
-               margin-top: -8px;
-           }
-           nav {
-               padding: 12px 10px;
-           }
-           .landing-content h1 {
-               margin-top: 5px;
-               font-size: 31px;
-               line-height: 33px;
-               letter-spacing: -0.035em;
-               color: #2D6936;
-           }
-           .landing-content-Two {
-               margin-left: -100px;
-               width: 70%;
-               margin-top: -50px;
-           }
-       }
+                        /* Carousel base class */
+                        
+                        .carousel {
+                            margin-bottom: 4rem;
+                        }
+                        /* Since positioning the image, we need to help out the caption */
+                        
+                        .carousel-caption {
+                            bottom: 10rem;
+                            z-index: 10;
+                        }
+                        /* Declare heights because of positioning of img element */
+                        
+                        .carousel-item {
+                            height: 32rem;
+                        }
+                        
+                        .carousel-item>img {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            min-width: 100%;
+                            height: 32rem;
+                        }
+                        
+                        .landing-background {
+                            height: 633px;
+                            display: flex;
+                            width: 100%;
+                            align-items: center;
+                            margin: 0px auto;
+                            padding: 0 100px;
+                        }
+                        
+                        .landing-content {
+                            width: 90%;
+                            margin-top: -240px;
+                            letter-spacing: 52%;
+                        }
+                        
+                        .landing-content h1 {
+                            font-family: 'Ubuntu';
+                            font-weight: normal;
+                            font-size: 53px;
+                            line-height: 50px;
+                            letter-spacing: -0.035em;
+                            color: #2D6936;
+                        }
+                        
+                        .landing-content p {
+                            font-family: 'Montserrat';
+                            font-weight: normal;
+                            font-size: 13px;
+                            line-height: 150%;
+                            letter-spacing: -0.5px;
+                            color: #4A4A4A;
+                        }
+                        
+                        button {
+                            background: linear-gradient(90deg, #2D6936 -6.45%, #00A419 95.97%);
+                            cursor: pointer;
+                        }
+                        
+                        .btn {
+                            color: white;
+                        }
+                        
+                        .fa-arrow-right {
+                            margin-left: 10px;
+                        }
+                        
+                        .landing-image {
+                            height: 500px;
+                        }
+                        
+                        .girl-bg {
+                            width: 550px;
+                            height: 580px;
+                            margin-top: -150px;
+                        }
+                        /* Landing PageTwo */
+                        
+                        .landing-background-Two {
+                            background: url(img/Rectangle\ 7.png);
+                            height: 603px;
+                            display: flex;
+                            width: 100%;
+                            align-items: center;
+                            padding: 0 12px;
+                        }
+                        
+                        .landing-content-Two {
+                            margin-top: -100px;
+                            width: 100%;
+                        }
+                        
+                        .landing-content-Two h1 {
+                            font-family: 'Ubuntu';
+                            font-weight: normal;
+                            font-size: 53px;
+                            line-height: 50px;
+                            letter-spacing: -0.035em;
+                            color: white;
+                        }
+                        
+                        .landing-content-Two p {
+                            font-family: 'Montserrat';
+                            font-weight: normal;
+                            font-size: 13px;
+                            width: 60%;
+                            line-height: 150%;
+                            letter-spacing: -0.5px;
+                            color: #fff;
+                        }
+                        
+                        button {
+                            background: linear-gradient(90deg, #2D6936 -6.45%, #00A419 95.97%);
+                            cursor: pointer;
+                        }
+                        
+                        .btn {
+                            color: white;
+                        }
+                        
+                        .fa-arrow-right {
+                            margin-left: 10px;
+                        }
+                        
+                        .landing-image2 img {
+                            width: 570px;
+                            height: 570px;
+                            margin-top: -30px;
+                            margin-left: 80px;
+                        }
+                        /* Landing PageThree */
+                        
+                        .landing-background-Three {
+                            background: #fff;
+                            border-radius: 20px 0px;
+                            height: 453px;
+                            display: flex;
+                            width: 100%;
+                            justify-items: center;
+                            align-items: center;
+                            margin: 0 auto;
+                        }
+                        
+                        .landing-content-Three {
+                            margin-left: 210px;
+                            margin-top: -130px;
+                            width: 100%;
+                        }
+                        
+                        .landing-content-Three h1 {
+                            font-family: 'Ubuntu';
+                            font-weight: normal;
+                            font-size: 53px;
+                            line-height: 50px;
+                            letter-spacing: -0.035em;
+                            color: #868686;
+                            margin-top: -10px;
+                        }
+                        
+                        .landing-content-Three h6 {
+                            font-family: 'Montserrat';
+                            font-weight: normal;
+                            font-size: 26px;
+                            line-height: 150%;
+                            letter-spacing: -0.5px;
+                            color: #000000;
+                        }
+                        
+                        .landing-content-Three p {
+                            font-family: 'Montserrat';
+                            font-weight: normal;
+                            font-size: 13px;
+                            width: 60%;
+                            line-height: 150%;
+                            letter-spacing: -0.5px;
+                            color: #000000;
+                        }
+                        
+                        button {
+                            background: linear-gradient(90deg, #2D6936 -6.45%, #00A419 95.97%);
+                            cursor: pointer;
+                        }
+                        
+                        .btn {
+                            color: white;
+                        }
+                        
+                        .fa-arrow-right {
+                            margin-left: 10px;
+                        }
+                        
+                        .landing-image3 img {
+                            width: 370px;
+                            height: 570px;
+                            margin-top: -290px;
+                            margin-right: 120px;
+                        }
+                        /* Landing PageFour */
+                        
+                        .landing-background-Four {
+                            height: 553px;
+                            background: #EBEBEB;
+                            border-radius: 0px 0px 0px 50px;
+                        }
+                        
+                        .landing-background-PageFour {
+                            display: flex;
+                            justify-content: center;
+                            margin-top: 20px;
+                        }
+                        
+                        .landing-background-Four h1 {
+                            padding-top: 30px;
+                            text-align: center;
+                            font-family: 'Montserrat';
+                            font-size: 44px;
+                            line-height: 150%;
+                            color: #DB7600;
+                            letter-spacing: -0.5px;
+                        }
+                        
+                        .landing-content-Four-One {
+                            width: 347px;
+                            height: 295px;
+                            background: #FFFFFF;
+                            box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+                            border-radius: 15px 15px 15px 50px;
+                            margin-right: 30px;
+                        }
+                        
+                        .landing-content-Four-Two {
+                            width: 347px;
+                            height: 295px;
+                            background: #FFFFFF;
+                            box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+                            border-radius: 15px 50px 15px 15px;
+                            margin-left: 30px;
+                        }
+                        
+                        .PageFour-Content {
+                            margin-left: 33px;
+                        }
+                        
+                        .PageFour-Content h6 {
+                            font-family: 'Ubuntu';
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 21px;
+                            padding-left: 10px;
+                            color: #FFFFFF;
+                            background-color: #FFCB59;
+                            margin-top: 30px;
+                            width: 37%;
+                        }
+                        
+                        .PageFour-Content h5 {
+                            font-family: 'Montserrat';
+                            font-weight: 600;
+                            font-size: 12px;
+                            width: 70%;
+                            letter-spacing: 0.06em;
+                            color: #000000;
+                            margin-top: 10px;
+                        }
+                        
+                        .PageFour-Content p {
+                            font-family: 'Montserrat';
+                            font-weight: 300;
+                            font-size: 10px;
+                            width: 70%;
+                            color: #000000;
+                            margin-top: 10px;
+                        }
+                        
+                        @media screen and (max-width: 1000px) {
+                            .burger {
+                                display: block;
+                            }
+                            .nav-list {
+                                display: none;
+                            }
+                            .girl-bg {
+                                width: 550px;
+                                height: 580px;
+                            }
+                            .landing-background {
+                                padding: 0px 18px;
+                            }
+                            .landing-content {
+                                margin-left: 40px;
+                            }
+                            .carousel-indicators {
+                                top: 450px;
+                                left: -380px;
+                            }
+                            .landing-content-Three {
+                                margin-left: 90px;
+                                margin-top: -60px;
+                                width: 100%;
+                            }
+                            .landing-image3 img {
+                                width: 370px;
+                                height: 570px;
+                                margin-top: -290px;
+                                margin-right: 100px;
+                            }
+                        }
+                        
+                        @media screen and (max-width: 990px) {
+                            .girl-bg {
+                                width: 550px;
+                                height: 580px;
+                            }
+                            .landing-background {
+                                padding: 0px;
+                            }
+                            .landing-content {
+                                margin-left: -20px;
+                            }
+                            .carousel-indicators {
+                                top: 450px;
+                                left: -340px;
+                            }
+                            .landing-image2 img {
+                                width: 500px;
+                                height: 500px;
+                                margin-top: -30px;
+                                margin-left: -5px;
+                            }
+                            .landing-content-Two {
+                                margin-top: -5px;
+                            }
+                            .landing-content-Two p {
+                                width: 90%;
+                            }
+                        }
+                        
+                        @media screen and (max-width: 966px) {
+                            .landing-image3 img {
+                                margin-right: 40px;
+                            }
+                        }
+                        
+                        @media screen and (max-width: 908px) {
+                            .landing-content-Three {
+                                margin-left: 50px;
+                            }
+                        }
+                        
+                        @media screen and (max-width: 864px) {
+                            .landing-content-Three {
+                                margin-left: 60px;
+                            }
+                            .landing-image3 img {
+                                margin-right: 20px;
+                            }
+                        }
+                        
+                        @media screen and (max-width: 858px) {
+                            .landing-content-Three {
+                                margin-left: 40px;
+                            }
+                            .landing-image3 img {
+                                margin-right: 1px;
+                            }
+                        }
+                        
+                        @media screen and (max-width: 908px) {
+                            .landing-content-Three {
+                                margin-left: 50px;
+                            }
+                            @media screen and (max-width: 864px) {
+                                .landing-content-Three {
+                                    margin-left: 60px;
+                                }
+                                .landing-image3 img {
+                                    margin-right: 20px;
+                                }
+                            }
+                            @media screen and (max-width: 966px) {
+                                .landing-image3 img {
+                                    margin-right: 40px;
+                                }
+                            }
+                            @media screen and (max-width: 908px) {
+                                .landing-content-Three {
+                                    margin-left: 50px;
+                                }
+                            }
+                            /* you missed a curly brace on line 476 */
+                            @media screen and (max-width: 864px) {
+                                .landing-content-Three {
+                                    margin-left: 60px;
+                                }
+                                .landing-image3 img {
+                                    margin-right: 20px;
+                                }
+                            }
+                            @media screen and (max-width: 858px) {
+                                .landing-content-Three {
+                                    margin-left: 40px;
+                                }
+                                .landing-image3 img {
+                                    margin-right: 1px;
+                                }
+                            }
+                            @media screen and (max-width: 858px) {
+                                .landing-content-Three {
+                                    margin-left: 40px;
+                                }
+                                .landing-image3 img {
+                                    width: 300px;
+                                    height: 500px;
+                                    margin-top: -200px;
+                                    margin-right: 2px;
+                                }
+                            }
+                            @media screen and (max-width: 780px) {
+                                nav {
+                                    padding: 12px 25px;
+                                }
+                            }
+                            @media screen and (max-width: 767px) {
+                                .girl-bg {
+                                    width: 500px;
+                                    height: 500px;
+                                    margin-left: -30px;
+                                }
+                                .landing-background {
+                                    padding: 0px 30px;
+                                }
+                                .landing-content {
+                                    margin-left: -110px;
+                                }
+                                .carousel-indicators {
+                                    left: -315px;
+                                }
+                                .landing-image2 img {
+                                    width: 450px;
+                                    height: 450px;
+                                    margin-top: -30px;
+                                    margin-left: -10px;
+                                }
+                                .landing-content-Two {
+                                    margin-top: -5px;
+                                }
+                                .landing-content-Two p {
+                                    width: 90%;
+                                }
+                            }
+                            @media screen and (max-width: 715px) {
+                                .girl-bg {
+                                    width: 500px;
+                                    height: 500px;
+                                    margin-left: -50px;
+                                }
+                                .carousel-indicators {
+                                    left: -300px;
+                                }
+                                .landing-image2 img {
+                                    width: 400px;
+                                    height: 400px;
+                                    margin-top: -20px;
+                                    margin-left: -30px;
+                                }
+                                .landing-content-Three h1 {
+                                    font-size: 45px;
+                                    line-height: 50px;
+                                }
+                            }
+                            @media screen and (max-width: 681px) {
+                                .carousel-indicators {
+                                    left: -300px;
+                                }
+                                .girl-bg {
+                                    width: 450px;
+                                    height: 450px;
+                                    margin-left: -20px;
+                                    margin-top: -100px;
+                                }
+                                .landing-content {
+                                    padding-left: 20px;
+                                }
+                                .carousel-indicators {
+                                    left: -290px;
+                                }
+                                .landing-image2 img {
+                                    margin-top: -30px;
+                                    margin-left: -50px;
+                                }
+                                .landing-image3 img {
+                                    width: 250px;
+                                    height: 400px;
+                                    margin-top: -200px;
+                                    margin-right: 2px;
+                                }
+                            }
+                            @media screen and (max-width: 649px) {
+                                .carousel-indicators {
+                                    left: -300px;
+                                }
+                                .girl-bg {
+                                    width: 350px;
+                                    height: 350px;
+                                    margin-left: -10px;
+                                    margin-top: -85px;
+                                }
+                                .landing-content {
+                                    padding-left: 50px;
+                                }
+                                .carousel-indicators {
+                                    left: -255px;
+                                }
+                                .landing-image2 img {
+                                    width: 400px;
+                                    height: 400px;
+                                    margin-top: -30px;
+                                    margin-left: -50px;
+                                }
+                                .landing-content-Two {
+                                    margin-left: -100px;
+                                    width: 70%;
+                                    margin-top: -15px;
+                                }
+                                .landing-content-Three {
+                                    margin-left: 4px;
+                                }
+                                .landing-content-Three h1 {
+                                    font-size: 44px;
+                                    line-height: 50px;
+                                }
+                            }
+                            @media screen and (max-width: 599px) {
+                                .carousel-indicators {
+                                    left: -300px;
+                                }
+                                .landing-background {
+                                    display: grid;
+                                    margin-left: 30px;
+                                }
+                                .landing-content {
+                                    margin-top: 10px;
+                                }
+                                .carousel-indicators {
+                                    left: -230px;
+                                    top: 510px;
+                                }
+                                .landing-background-Two {
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+                                .landing-background-Three {
+                                    display: flex;
+                                    flex-direction: column;
+                                    height: 700px;
+                                }
+                                .landing-content-Three {
+                                    margin-left: 94px;
+                                    margin-top: 20px;
+                                }
+                                .landing-image3 img {
+                                    margin-top: -40px;
+                                    margin-right: -22px;
+                                }
+                            }
+                            @media screen and (max-width: 521px) {
+                                .carousel-indicators {
+                                    left: -220px;
+                                    top: 540px;
+                                }
+                            }
+                            @media screen and (max-width: 501px) {
+                                .carousel-indicators {
+                                    left: -210px;
+                                    top: 540px;
+                                }
+                            }
+                            @media screen and (max-width: 475px) {
+                                .carousel-indicators {
+                                    left: -190px;
+                                    top: 540px;
+                                }
+                            }
+                            @media screen and (max-width: 435px) {
+                                .carousel-indicators {
+                                    left: -170px;
+                                }
+                                .landing-content-Three {
+                                    margin-left: 74px;
+                                }
+                            }
+                            @media screen and (max-width: 399px) {
+                                .carousel-indicators {
+                                    left: -150px;
+                                }
+                                .girl-bg {
+                                    margin-left: -40px;
+                                    margin-top: -90px;
+                                }
+                                .landing-content {
+                                    margin-top: -8px;
+                                }
+                                nav {
+                                    padding: 12px 10px;
+                                }
+                                button {
+                                    background: linear-gradient(90deg, #2D6936 -6.45%, #00A419 95.97%);
+                                    cursor: pointer;
+                                    width: 100px;
+                                    height: 30px;
+                                }
+                                .btn {
+                                    font-size: 10px;
+                                }
+                                .landing-content-Three {
+                                    margin-left: 24px;
+                                }
+                                .landing-image3 img {
+                                    margin-top: -60px;
+                                }
+                            }
+                            @media screen and (max-width: 351px) {
+                                .carousel-indicators {
+                                    left: -100px;
+                                }
+                                .girl-bg {
+                                    width: 300px;
+                                    height: 300px;
+                                    margin-left: -40px;
+                                    margin-top: -50px;
+                                }
+                                .landing-content {
+                                    padding-left: 70px;
+                                    margin-top: -8px;
+                                }
+                                nav {
+                                    padding: 12px 10px;
+                                }
+                                .landing-content h1 {
+                                    margin-top: 5px;
+                                    font-size: 31px;
+                                    line-height: 33px;
+                                    letter-spacing: -0.035em;
+                                    color: #2D6936;
+                                }
+                                .landing-content-Two {
+                                    margin-left: -100px;
+                                    width: 70%;
+                                    margin-top: -50px;
+                                }
+                                .landing-content-Three {
+                                    margin-left: 14px;
+                                }
+                                .landing-image3 img {
+                                    margin-top: -60px;
+                                    width: 200px;
+                                    height: 300px;
+                                }
+                            }
