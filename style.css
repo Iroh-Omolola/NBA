@@ -550,12 +550,12 @@
           .landing-content-Four-One {
               width: 300px;
               height: 330px;
-              margin-right: 30px;
+              margin-right: 0px;
           }
           .landing-content-Four-Two {
               width: 300px;
               height: 330px;
-              margin-left: 30px;
+              margin-left: 0px;
           }
       }
       @media screen and (max-width: 780px) {
@@ -831,5 +831,18 @@
               margin-top: -60px;
               width: 200px;
               height: 300px;
+          }
+          .landing-content-Four-One {
+              width: 270px;
+              height: 295px;
+              margin-right: 0px;
+          }
+          .landing-content-Four-Two {
+              width: 270px;
+              height: 295px;
+              margin-left: 0px;
+          }
+          .PageFour-Content p {
+              width: 100%;
           }
       }
