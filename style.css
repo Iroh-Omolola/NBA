@@ -19,6 +19,9 @@
  }
  
  nav {
+     background-color: white;
+     position: fixed;
+     z-index: 10;
      width: 100%;
      height: auto;
      display: flex;
@@ -134,6 +137,7 @@
  /* Declare heights because of positioning of img element */
  
  .carousel-item {
+     margin-top: 40px;
      height: 32rem;
  }
  
@@ -397,6 +401,9 @@
      color: #000000;
      margin-top: 10px;
  }
+.mobile-nav{
+    display: none;
+}
  
  @media screen and (min-width: 768px) {
      .bd-placeholder-img-lg {
@@ -462,7 +469,7 @@
         right: 0;
         top: 75.5px;
         width: 55%;
-        height: 50%;
+        height: 100vh;
         align-content: space-between;
         transition: transform 0.5s ease-in;
         z-index: 2;
