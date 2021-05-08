@@ -18,8 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/Responsiveness.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="style.css">
     <title>NBA</title>
 </head>
 
@@ -29,7 +29,7 @@
         <header>
             <nav>
                 <!---------------Top Nav----------------->
-                <div class="image-logo">
+                <!-- <div class="image-logo">
                     <div><img src="assets/img/ikeja branch NBA logo2 1.png" class="logo1" width="50px" height="40px"></div>
                     <div><img src="assets/img/ikeja branch NBA logo 1.png" class="logo2" width="140px" height="40px"></div>
                 </div>
@@ -50,21 +50,56 @@
                 </div>
             </nav>
 
+            </div> -->
+        </header>
+        <header>
+            <nav>
+                <!---------------Top Nav----------------->
+                <div class="image-logo">
+                    <div><img src="img/ikeja branch NBA logo2 1.png" class="logo1" width="50px" height="40px"></div>
+                    <div><img src="img/ikeja branch NBA logo 1.png" class="logo2" width="140px" height="40px"></div>
+                </div>
+                <div class="burger" onclick="toggleNav(1)">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <nav class="mobile-nav">
+                    <ul>
+                        <li><a href="#" class="m-link">HOMES</a></li>
+                        <li><a href="#" class="m-link">NEWS & EVENTS</a></li>
+                        <li><a href="#" class="m-link">ABOUT US</a></li>
+                        <li><a href="#" class="m-link">MEMBERS PORTAL</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-list">
+                    <ul class="topnav">
+                        <li class="active"> <a href="index">HOMES</a></li>
+                        <li> <a href="#">NEWS</a></li>
+                    </ul>
+
+                    <ul class="topnav pull-right">
+                        <li><a href="#">Login/ Register</a></li>
+                    </ul>
+                </div>
+            </nav>
+
             </div>
         </header>
+
         <div class="container">
             <div class="row">
                 <div class="col-2">
-                    
+
                 </div>
                 <div class="col-8">
                     <div style=" border-bottom-right-radius: 30px; margin-top: 25px;">
                         <div class="row">
-                            
-                            <div class="col-6"  style=" background-color: #F8F7FD; border-bottom-left-radius: 30px;">
-                                <img src="assets/img/login.jpg" style="width: 100%; border-bottom-left-radius: 40px; border-top-right-radius: 40px;" >
+
+                            <div class="col-6" style=" background-color: #F8F7FD; border-bottom-left-radius: 30px;">
+                                <img src="img/login.jpg" style="width: 100%; border-bottom-left-radius: 40px; border-top-right-radius: 40px;">
                             </div>
-                            <div class="col-6" style=" background-color: #F8F7FD; padding: 20px;" >
+                            <div class="col-6" style=" background-color: #F8F7FD; padding: 20px;">
                                 <div style="padding: 40px;">
                                 </div>
                                 <input type="text" class="form-control" placeholder="Username">
@@ -74,23 +109,23 @@
                                 <div style="padding: 10px;">
                                 </div>
                                 <div style="padding-right: 30%;">
-                                    <button type="button "class="btn form-control">Login <i class="fa fa-sign-in"></i></button>
+                                    <button type="button " class="btn form-control">Login <i class="fa fa-sign-in"></i></button>
                                 </div>
 
                             </div>
-                            
+
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="col-2">
-                    
+
                 </div>
-                
+
             </div>
         </div>
-        
-    
+
+
 
         <!-- Footer -->
         <footer class="page-footer font-small pt-4 d-flex justify-content-around mt-4">
@@ -129,8 +164,7 @@
 
     </section>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
+    <script src="app.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>

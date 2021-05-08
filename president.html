@@ -18,8 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/Responsiveness.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="style.css">
     <title>NBA</title>
 </head>
 
@@ -30,97 +30,97 @@
             <nav>
                 <!---------------Top Nav----------------->
                 <div class="image-logo">
-                    <div><img src="assets/img/ikeja branch NBA logo2 1.png" class="logo1" width="50px" height="40px"></div>
-                    <div><img src="assets/img/ikeja branch NBA logo 1.png" class="logo2" width="140px" height="40px"></div>
+                    <div><img src="img/ikeja branch NBA logo2 1.png" class="logo1" width="50px" height="40px"></div>
+                    <div><img src="img/ikeja branch NBA logo 1.png" class="logo2" width="140px" height="40px"></div>
                 </div>
-                <div class="burger">
+                <div class="burger" onclick="toggleNav(1)">
                     <div class="line1"></div>
                     <div class="line2"></div>
                     <div class="line3"></div>
                 </div>
+                <nav class="mobile-nav">
+                    <ul>
+                        <li><a href="#" class="m-link">HOMES</a></li>
+                        <li><a href="#" class="m-link">NEWS & EVENTS</a></li>
+                        <li><a href="#" class="m-link">ABOUT US</a></li>
+                        <li><a href="#" class="m-link">MEMBERS PORTAL</a></li>
+                    </ul>
+                </nav>
                 <div class="nav-list">
                     <ul class="topnav">
-                        <li> <a href="index">HOMES</a></li>
+                        <li class="active"> <a href="#">HOMES</a></li>
                         <li> <a href="#">NEWS & EVENTS</a></li>
-                        <li class="active"> <a href="about">ABOUT US</a></li>
-                        <li> <a href="member">MEMBERS PORTAL</a></li>
+                        <li> <a href="#">ABOUT US</a></li>
+                        <li> <a href="#">MEMBERS PORTAL</a></li>
                     </ul>
                 </div>
             </nav>
 
             </div>
         </header>
-        <nav aria-label="breadcrumb" style="background-color: #66b700;">
-            <h3 style="margin-left: 75px; color: white;">Our President</h3>
-        </nav>
-        <!-- President Page -->
-
-        <div style="margin: 5%;">
-            
+        <div class="mini-heading">
+            <h3 class="breadcrumb">Our President</h3>
         </div>
-        <!-- End of President Page -->
-
-        <!-- Latest News -->
+        <!-- President Page-->
         <div class="container">
-            <p><b>President</b></p>
-            <h1>Olumide A. Akpata</h1>
+            <div class="president-heading ">
+                <p><b>President</b></p>
+                <h1>Olumide A. Akpata</h1>
+            </div>
 
-            <div class="row" style="background-color: #eaeaea; border-radius: 50px;" >
-                <div class="col-8"> 
-                    <div style="padding: 20px; padding-top: 60px;">
+            <div class="row " style="background-color: #eaeaea; border-radius: 50px; ">
+                <div class="col-8 ">
+                    <div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ....
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ....
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ....
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ....
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ....
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ....
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat .... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat .... Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                            in voluptate velit esse cillum dolore eu fugiat .... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat .... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat .... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ....
                         </p>
                     </div>
                 </div>
-                <div class="col-4">
-                    <img src="assets/img/Olumide president 1.png" style="margin-top:  -120px;">  
+                <div class="col-4 ">
+                    <img src="img/Olumide president 1.png ">
                 </div>
 
             </div>
         </div>
 
-
+        <!-- End of President Page -->
 
         <!-- Footer -->
-        <footer class="page-footer font-small pt-4 d-flex justify-content-around mt-4">
+        <footer class="page-footer font-small pt-4 d-flex justify-content-around mt-4 ">
 
-            <div class="contacts">
+            <div class="contacts ">
                 <h6>Contact</h6>
 
                 <p>
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> Ikeja, Lagos, Nigeria
+                    <i class="fa fa-map-marker " aria-hidden="true "></i> Ikeja, Lagos, Nigeria
                 </p>
                 <p>
-                    <ion-icon name="call"></ion-icon> 080376811156
+                    <ion-icon name="call "></ion-icon> 080376811156
                 </p>
                 <p>
-                    <i class="fa fa-at" aria-hidden="true"></i> info@depoconnet.com
+                    <i class="fa fa-at " aria-hidden="true "></i> info@depoconnet.com
                 </p>
 
 
 
             </div>
-            <div class="link mt-4">
+            <div class="link mt-4 ">
 
                 <div class="social-links ">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                    <ion-icon name="logo-instagram"></ion-icon>
-                    <ion-icon name="logo-twitter"></ion-icon>
-                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <ion-icon name="logo-facebook "></ion-icon>
+                    <ion-icon name="logo-instagram "></ion-icon>
+                    <ion-icon name="logo-twitter "></ion-icon>
+                    <ion-icon name="logo-linkedin "></ion-icon>
                 </div>
-                <div class="copyright">
-                    <i class="far fa-copyright" aria-hidden="true"></i> Copyright 2021 NBAIJEKA. All rights reserved.
+                <div class="copyright ">
+                    <i class="far fa-copyright " aria-hidden="true "></i> Copyright 2021 NBAIJEKA. All rights reserved.
 
                 </div>
         </footer>
@@ -140,11 +140,10 @@
 
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
+    <script src="app.js "></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js "></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js "></script>
 </body>
 
 </html>

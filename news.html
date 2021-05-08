@@ -18,8 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/Responsiveness.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="style.css">
     <title>NBA</title>
 </head>
 
@@ -30,82 +30,93 @@
             <nav>
                 <!---------------Top Nav----------------->
                 <div class="image-logo">
-                    <div><img src="assets/img/ikeja branch NBA logo2 1.png" class="logo1" width="50px" height="40px"></div>
-                    <div><img src="assets/img/ikeja branch NBA logo 1.png" class="logo2" width="140px" height="40px"></div>
+                    <div><img src="img/ikeja branch NBA logo2 1.png" class="logo1" width="50px" height="40px"></div>
+                    <div><img src="img/ikeja branch NBA logo 1.png" class="logo2" width="140px" height="40px"></div>
                 </div>
-                <div class="burger">
+                <div class="burger" onclick="toggleNav(1)">
                     <div class="line1"></div>
                     <div class="line2"></div>
                     <div class="line3"></div>
                 </div>
+                <nav class="mobile-nav">
+                    <ul>
+                        <li><a href="#" class="m-link">HOMES</a></li>
+                        <li><a href="#" class="m-link">NEWS & EVENTS</a></li>
+                        <li><a href="#" class="m-link">ABOUT US</a></li>
+                        <li><a href="#" class="m-link">MEMBERS PORTAL</a></li>
+                    </ul>
+                </nav>
                 <div class="nav-list">
                     <ul class="topnav">
-                        <li class="active"> <a href="index">HOMES</a></li>
-                        <li> <a href="#">NEWS & EVENTS</a></li>
-                        <li> <a href="about">ABOUT US</a></li>
-                        <li> <a href="member">MEMBERS PORTAL</a></li>
+                        <li> <a href="#">HOMES</a></li>
+                        <li class="active"> <a href="#">NEWS & EVENTS</a></li>
+                        <li> <a href="#">ABOUT US</a></li>
+                        <li> <a href="#">MEMBERS PORTAL</a></li>
                     </ul>
                 </div>
             </nav>
 
             </div>
         </header>
+        <div class="mini-heading">
+            <h3 class="breadcrumb">News</h3>
+        </div>
 
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                    <div style=" border-bottom-right-radius: 30px; margin-top: 25px;">
-                        <div  style="background-color: #F8F7FD; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 3px 3px 3px #eeeef0;">
-                            <img src="assets/img/news.jpg" style="width: 100%; border-bottom-right-radius: 40px;  border-bottom-left-radius: 40px;" >
-                           
-                           <div style="padding: 20px;">
-                                <h6>Aug 5, 2021</h6>
-                                <h5>John Doe</h5>
-                                <p>
-                                    perspiciatis unde omnis iste natus error  veritatis et quasi architecto beatae vitae dicta sunt explicabo perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
-                                </p>
-                                <a href="Read More">Read More →</a>
-                           </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div style=" border-bottom-right-radius: 30px; margin-top: 25px;">
-                        <div  style="background-color: #F8F7FD; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 3px 3px 3px #eeeef0;">
-                            <img src="assets/img/news.jpg" style="width: 100%; border-bottom-right-radius: 40px;  border-bottom-left-radius: 40px;" >
-                           
-                           <div style="padding: 20px;">
-                                <h6>Aug 5, 2021</h6>
-                                <h5>John Doe</h5>
-                                <p>
-                                    perspiciatis unde omnis iste natus error  veritatis et quasi architecto beatae vitae dicta sunt explicabo perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
-                                </p>
-                                <a href="Read More">Read More →</a>
-                           </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div style=" border-bottom-right-radius: 30px; margin-top: 25px;">
-                        <div  style="background-color: #F8F7FD; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 3px 3px 3px #eeeef0;">
-                            <img src="assets/img/news.jpg" style="width: 100%; border-bottom-right-radius: 40px;  border-bottom-left-radius: 40px;" >
-                           
+                    <div style=" border-bottom-right-radius: 30px; padding-top: 25px;">
+                        <div style="background-color: #F8F7FD; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 3px 3px 3px #eeeef0;">
+                            <img src="img/news.jpg" style="width: 100%; border-bottom-right-radius: 40px;  border-bottom-left-radius: 40px;">
+
                             <div style="padding: 20px;">
                                 <h6>Aug 5, 2021</h6>
                                 <h5>John Doe</h5>
                                 <p>
-                                    perspiciatis unde omnis iste natus error  veritatis et quasi architecto beatae vitae dicta sunt explicabo perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                                    perspiciatis unde omnis iste natus error veritatis et quasi architecto beatae vitae dicta sunt explicabo perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
                                 </p>
                                 <a href="Read More">Read More →</a>
-                           </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
+                <div class="col-4">
+                    <div style=" border-bottom-right-radius: 30px; margin-top: 25px;">
+                        <div style="background-color: #F8F7FD; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 3px 3px 3px #eeeef0;">
+                            <img src="img/news.jpg" style="width: 100%; border-bottom-right-radius: 40px;  border-bottom-left-radius: 40px;">
+
+                            <div style="padding: 20px;">
+                                <h6>Aug 5, 2021</h6>
+                                <h5>John Doe</h5>
+                                <p>
+                                    perspiciatis unde omnis iste natus error veritatis et quasi architecto beatae vitae dicta sunt explicabo perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+                                </p>
+                                <a href="Read More">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div style=" border-bottom-right-radius: 30px; margin-top: 25px;">
+                        <div style="background-color: #F8F7FD; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 3px 3px 3px #eeeef0;">
+                            <img src="img/news.jpg" style="width: 100%; border-bottom-right-radius: 40px;  border-bottom-left-radius: 40px;">
+
+                            <div style="padding: 20px;">
+                                <h6>Aug 5, 2021</h6>
+                                <h5>John Doe</h5>
+                                <p>
+                                    perspiciatis unde omnis iste natus error veritatis et quasi architecto beatae vitae dicta sunt explicabo perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+                                </p>
+                                <a href="Read More">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        
-    
+
+
 
         <!-- Footer -->
         <footer class="page-footer font-small pt-4 d-flex justify-content-around mt-4">
@@ -143,8 +154,7 @@
         <!-- End of Footer -->
 
     </section>
-
-    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="app.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
