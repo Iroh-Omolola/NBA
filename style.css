@@ -567,7 +567,7 @@
             margin-left: 40px;
         }
         .carousel-indicators {
-            top: 450px;
+            top: 490px;
             left: -380px;
         }
         .landing-content-Three {
@@ -621,7 +621,7 @@
             margin-left: -20px;
         }
         .carousel-indicators {
-            top: 450px;
+            top: 490px;
             left: -340px;
         }
         .landing-image2 img {
@@ -908,7 +908,7 @@
             }
             .carousel-indicators {
                 left: -230px;
-                top: 510px;
+                top: 560px;
             }
             .landing-background-Two {
                 display: flex;
@@ -927,6 +927,9 @@
                 margin-top: -40px;
                 margin-right: -22px;
             }
+            footer {
+                font-size: 12px;
+            }
         }
         @media screen and (max-width: 521px) {
             .carousel-indicators {
@@ -943,7 +946,7 @@
         @media screen and (max-width: 475px) {
             .carousel-indicators {
                 left: -190px;
-                top: 540px;
+                top: 560px;
             }
             .landing-content-Four-One {
                 margin-right: 20px;
@@ -958,6 +961,13 @@
                 margin-left: 10px;
                 width: 90%;
                 margin-top: -15px;
+            }
+            footer {
+                font-size: 10px;
+                justify-content: center;
+            }
+            .copyright {
+                width: 80%;
             }
         }
         @media screen and (max-width: 435px) {
