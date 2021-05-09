@@ -832,6 +832,7 @@
             .landing-background-Four {
                 height: 853px;
             }
+            .content {}
         }
         @media screen and (max-width: 681px) {
             .carousel-indicators {
