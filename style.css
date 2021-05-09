@@ -5,7 +5,7 @@
     }
     
     body {
-        width: 100%;
+        width: 100%vw;
         height: 100%vh;
         font-family: 'Ubuntu', 'Montserrat', sans-serif;
         padding-top: -3rem;
@@ -19,6 +19,7 @@
     }
     
     nav {
+        max-width: 100vw;
         background-color: white;
         position: fixed;
         z-index: 10;
@@ -26,7 +27,7 @@
         height: auto;
         display: flex;
         justify-content: space-between;
-        padding: 12px 70px;
+        /* padding: 12px 60px; */
         align-items: center;
         border-bottom: 1px solid rgb(206, 206, 206);
         box-shadow: 1px 1px 1px rgb(223, 219, 219);
@@ -556,6 +557,7 @@
         }
         nav {
             padding: none;
+            max-width: 100vw;
         }
         .nav-list {
             display: none;
@@ -836,7 +838,6 @@
             .landing-background-Four {
                 height: 853px;
             }
-            .content {}
         }
         @media screen and (max-width: 681px) {
             .carousel-indicators {
@@ -901,6 +902,10 @@
             }
         }
         @media screen and (max-width: 599px) {
+            nav {
+                padding: none;
+                max-width: 100vw;
+            }
             .carousel-indicators {
                 left: -300px;
             }
@@ -949,9 +954,13 @@
             }
         }
         @media screen and (max-width: 475px) {
+            .girl-bg {
+                margin-left: 20px;
+                margin-top: -115px;
+            }
             .carousel-indicators {
-                left: -190px;
-                top: 560px;
+                left: -160px;
+                top: 540px;
             }
             .landing-content-Four-One {
                 margin-right: 20px;
@@ -977,8 +986,8 @@
         }
         @media screen and (max-width: 435px) {
             .carousel-indicators {
-                left: -170px;
-                top: 590px;
+                left: -160px;
+                top: 530px;
             }
             .landing-content-Three {
                 margin-left: 74px;
@@ -997,11 +1006,11 @@
         @media screen and (max-width: 399px) {
             .carousel-indicators {
                 left: -120px;
-                top: 590px;
+                top: 560px;
             }
             .girl-bg {
                 margin-left: -40px;
-                margin-top: -90px;
+                margin-top: -115px;
             }
             .landing-content {
                 width: 100%;
@@ -1020,7 +1029,7 @@
                 font-size: 10px;
             }
             .landing-content-Two {
-                margin-left: -25px;
+                margin-left: -18px;
                 width: 90%;
                 margin-top: -15px;
             }
@@ -1034,7 +1043,7 @@
         @media screen and (max-width: 351px) {
             .carousel-indicators {
                 left: -90px;
-                top: 590px;
+                top: 550px;
             }
             .girl-bg {
                 width: 300px;
