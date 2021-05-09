@@ -505,6 +505,11 @@
     }
     /* NEWS*/
     
+    .news-heading {
+        justify-content: center;
+        margin-left: 3px;
+    }
+    
     .news-content2 {
         border-bottom-right-radius: 30px;
         padding-top: 25px;
@@ -1039,6 +1044,7 @@
             .landing-image3 img {
                 margin-top: -60px;
             }
+            .link {}
         }
         @media screen and (max-width: 351px) {
             .carousel-indicators {
