@@ -93,11 +93,34 @@
             margin: 5px;
             transition: all 0.3s ease;
         }
+        
+        @keyframes navLinkFade {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0px);
+            }
+        }
+        
+        .toggle .line1 {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+        
+        .toggle .line2 {
+            opacity: 0;
+        }
+        
+        .toggle .line3 {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
         /* Landing PageOne */
         
         .carousel-indicators {
             position: relative;
-            top: 450px;
+            top: 500px;
             left: -415px;
         }
         
@@ -281,6 +304,11 @@
             width: 100%;
         }
         
+        button a {
+            text-decoration: none;
+            color: white;
+        }
+        
         .landing-content-Three h1 {
             font-family: 'Ubuntu';
             font-weight: normal;
@@ -411,6 +439,10 @@
         }
         /* Footer*/
         
+        footer {
+            padding-left: 30px;
+        }
+        
         ion-icon {
             color: #2D6936;
             margin-right: 3px;
@@ -429,12 +461,12 @@
         
         .mini-heading {
             background-color: #66b700;
-            padding-top: 90px;
+            padding-top: 105px;
         }
         
         .breadcrumb {
             color: #FFFFFF;
-            font-size: 30px;
+            font-size: 33px;
             margin-left: 80px;
             padding-bottom: 10px;
         }
@@ -881,6 +913,7 @@
             @media screen and (max-width: 435px) {
                 .carousel-indicators {
                     left: -170px;
+                    top: 590px;
                 }
                 .landing-content-Three {
                     margin-left: 74px;
@@ -898,13 +931,15 @@
             }
             @media screen and (max-width: 399px) {
                 .carousel-indicators {
-                    left: -150px;
+                    left: -120px;
+                    top: 590px;
                 }
                 .girl-bg {
                     margin-left: -40px;
                     margin-top: -90px;
                 }
                 .landing-content {
+                    width: 100%;
                     margin-top: -8px;
                 }
                 nav {
@@ -919,6 +954,11 @@
                 .btn {
                     font-size: 10px;
                 }
+                .landing-content-Two {
+                    margin-left: -25px;
+                    width: 90%;
+                    margin-top: -15px;
+                }
                 .landing-content-Three {
                     margin-left: 24px;
                 }
@@ -928,7 +968,8 @@
             }
             @media screen and (max-width: 351px) {
                 .carousel-indicators {
-                    left: -100px;
+                    left: -90px;
+                    top: 590px;
                 }
                 .girl-bg {
                     width: 300px;
@@ -937,6 +978,7 @@
                     margin-top: -50px;
                 }
                 .landing-content {
+                    width: 100%;
                     padding-left: 70px;
                     margin-top: -8px;
                 }
@@ -951,17 +993,32 @@
                     color: #2D6936;
                 }
                 .landing-content-Two {
-                    margin-left: -100px;
-                    width: 100%;
-                    margin-top: -60px;
+                    margin-left: 10px;
+                    width: 90%;
+                    margin-top: -15px;
+                }
+                .landing-content-Two h1 {
+                    margin-top: 5px;
+                    font-size: 31px;
+                    line-height: 33px;
                 }
                 .landing-content-Three {
-                    margin-left: 14px;
+                    margin-left: 55px;
+                }
+                .landing-content-Three h1 {
+                    margin-top: 5px;
+                    font-size: 31px;
+                    line-height: 33px;
                 }
                 .landing-image3 img {
                     margin-top: -60px;
                     width: 200px;
                     height: 300px;
+                }
+                .landing-background-Four h1 {
+                    margin-top: 5px;
+                    font-size: 31px;
+                    line-height: 33px;
                 }
                 .landing-content-Four-One {
                     width: 270px;
@@ -977,27 +1034,4 @@
                     width: 100%;
                 }
             }
-        }
-        
-        @keyframes navLinkFade {
-            from {
-                opacity: 0;
-                transform: translateX(50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0px);
-            }
-        }
-        
-        .toggle .line1 {
-            transform: rotate(-45deg) translate(-5px, 6px);
-        }
-        
-        .toggle .line2 {
-            opacity: 0;
-        }
-        
-        .toggle .line3 {
-            transform: rotate(45deg) translate(-5px, -6px);
         }
