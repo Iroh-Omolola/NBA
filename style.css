@@ -498,7 +498,7 @@ ion-icon {
 /* president-page */
 
 .presido-img {
-    margin-left: 5px;
+    margin-left: -35px;
     margin-top: -160px;
 }
 
@@ -666,6 +666,13 @@ ion-icon {
         color: #2D6936;
         font-family: 'Ubuntu', 'Montserrat', sans-serif;
     }
+    /* president-page */
+    .presido-img {
+        margin-left: -35px;
+        margin-top: -100px;
+        width: 350px;
+        height: 600px;
+    }
 }
 
 @media screen and (max-width: 990px) {
@@ -727,54 +734,6 @@ ion-icon {
     }
 }
 
-@media screen and (max-width: 908px) {
-    .landing-content-Three {
-        margin-left: 50px;
-    }
-}
-
-@media screen and (max-width: 864px) {
-    .landing-content-Three {
-        margin-left: 60px;
-    }
-    .landing-image3 img {
-        margin-right: 20px;
-    }
-}
-
-@media screen and (max-width: 966px) {
-    .landing-image3 img {
-        margin-right: 40px;
-    }
-}
-
-@media screen and (max-width: 908px) {
-    .landing-content-Three {
-        margin-left: 50px;
-    }
-}
-
-
-/* you missed a curly brace on line 476 */
-
-@media screen and (max-width: 864px) {
-    .landing-content-Three {
-        margin-left: 60px;
-    }
-    .landing-image3 img {
-        margin-right: 20px;
-    }
-}
-
-@media screen and (max-width: 858px) {
-    .landing-content-Three {
-        margin-left: 40px;
-    }
-    .landing-image3 img {
-        margin-right: 1px;
-    }
-}
-
 @media screen and (max-width: 858px) {
     .landing-content-Three {
         margin-left: 40px;
@@ -785,12 +744,22 @@ ion-icon {
         margin-top: -200px;
         margin-right: 2px;
     }
+    .landing-image3 img {
+        margin-right: 1px;
+    }
     .link {
         margin-right: 150px;
     }
     .contacts {
         margin-left: 150px;
         max-width: 100%;
+    }
+    /* president-page */
+    .presido-img {
+        margin-left: -35px;
+        margin-top: -100px;
+        width: 350px;
+        height: 600px;
     }
 }
 
@@ -872,6 +841,13 @@ ion-icon {
     }
     .news-details {
         padding: 20px;
+    }
+    /* president-page */
+    .presido-img {
+        margin-left: 55px;
+        margin-top: -40px;
+        width: 350px;
+        height: 600px;
     }
 }
 
