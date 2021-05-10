@@ -446,6 +446,15 @@
         align-content: space-around;
     }
     
+    .link {
+        margin-right: 250px;
+    }
+    
+    .contacts {
+        margin-left: 150px;
+        max-width: 100%;
+    }
+    
     ion-icon {
         color: #2D6936;
         margin-right: 3px;
@@ -1047,6 +1056,15 @@
             }
             .contacts {
                 margin-left: 30px;
+            }
+        }
+        @media screen and (max-width: 366px) {
+            .link {
+                margin-right: 20px;
+            }
+            .contacts {
+                margin-left: 30px;
+                max-width: 100%;
             }
         }
         @media screen and (max-width: 351px) {
