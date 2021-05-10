@@ -738,6 +738,13 @@
                 margin-top: -200px;
                 margin-right: 2px;
             }
+            .link {
+                margin-right: 150px;
+            }
+            .contacts {
+                margin-left: 150px;
+                max-width: 100%;
+            }
         }
         @media screen and (max-width: 784px) {
             .landing-background-Four h1 {
@@ -880,6 +887,13 @@
                 margin-top: -200px;
                 margin-right: 2px;
             }
+            .link {
+                margin-right: 100px;
+            }
+            .contacts {
+                margin-left: 100px;
+                max-width: 100%;
+            }
         }
         @media screen and (max-width: 649px) {
             .carousel-indicators {
@@ -960,6 +974,13 @@
             .carousel-indicators {
                 left: -220px;
                 top: 540px;
+            }
+            .link {
+                margin-right: 60px;
+            }
+            .contacts {
+                margin-left: 60px;
+                max-width: 100%;
             }
         }
         @media screen and (max-width: 501px) {
