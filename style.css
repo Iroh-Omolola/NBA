@@ -442,7 +442,8 @@
     /* Footer*/
     
     footer {
-        padding-left: 30px;
+        justify-content: space-around;
+        align-content: space-around;
     }
     
     ion-icon {
@@ -1010,7 +1011,7 @@
         }
         @media screen and (max-width: 399px) {
             .carousel-indicators {
-                left: -120px;
+                left: -130px;
                 top: 560px;
             }
             .girl-bg {
@@ -1044,7 +1045,9 @@
             .landing-image3 img {
                 margin-top: -60px;
             }
-            .link {}
+            .contacts {
+                margin-left: 30px;
+            }
         }
         @media screen and (max-width: 351px) {
             .carousel-indicators {
