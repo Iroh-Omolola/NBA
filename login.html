@@ -18,7 +18,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/Responsiveness.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>NBA</title>
 </head>
@@ -26,10 +25,9 @@
 <body>
     <!-- Landing Page one -->
     <section class="Landing-page">
-        <header>
-            <nav>
-                <!---------------Top Nav----------------->
-                <div class="image-logo">
+
+        <!---------------Top Nav----------------->
+        <!-- <div class="image-logo">
                     <div><img src="assets/img/ikeja branch NBA logo2 1.png" class="logo1" width="50px" height="40px"></div>
                     <div><img src="assets/img/ikeja branch NBA logo 1.png" class="logo2" width="140px" height="40px"></div>
                 </div>
@@ -50,62 +48,97 @@
                 </div>
             </nav>
 
+            </div> -->
+
+        <header>
+            <nav>
+                <!---------------Top Nav----------------->
+                <div class="image-logo">
+                    <div><img src="assets/img/ikeja branch NBA logo2 1.png" class="logo1" width="50px" height="40px"></div>
+                    <div><img src="assets/img/ikeja branch NBA logo 1.png" class="logo2" width="140px" height="40px"></div>
+                </div>
+                <div class="burger" onclick="toggleNav(1)">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <nav class="mobile-nav">
+                    <ul>
+                        <li><a href="index.html" class="m-link">HOMES</a></li>
+                        <li><a href="news.html" class="m-link">NEWS & EVENTS</a></li>
+                        <li><a href="about.html" class="m-link">ABOUT US</a></li>
+                        <li><a href="#" class="m-link">MEMBERS PORTAL</a></li>
+                        <li> <button href="#" class=" btn m-link">Find a Lawyer</button></li>
+                    </ul>
+                </nav>
+                <div class="nav-list">
+                    <ul class="topnav">
+                        <li> <a href="index">HOMES</a></li>
+                        <li> <a href="news.html">NEWS</a></li>
+
+
+                        <li class="active fa-pull-right"><a href="#">Login/ Register</a></li>
+                        <button type="" class="btn law ">Find a Lawyer</button>
+                    </ul>
+
+                </div>
+            </nav>
+
             </div>
         </header>
-        <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    
+
+        <div class="container ">
+            <div class="row ">
+                <div class="col-2 ">
+
                 </div>
-                <div class="col-8">
-                    <div style=" border-bottom-right-radius: 30px; margin-top: 25px;">
-                        <div class="row">
-                            
-                            <div class="col-6"  style=" background-color: #F8F7FD; border-bottom-left-radius: 30px;">
-                                <img src="assets/img/login.jpg" style="width: 100%; border-bottom-left-radius: 40px; border-top-right-radius: 40px;" >
+                <div class="col-8 ">
+                    <div style=" border-bottom-right-radius: 30px; margin-top: 25px; ">
+                        <div class="row ">
+
+                            <div class="col-6 " style=" background-color: #F8F7FD; border-bottom-left-radius: 30px; ">
+                                <img src="assets/img/login.jpg " style="width: 100%; border-bottom-left-radius: 40px; border-top-right-radius: 40px; ">
                             </div>
-                            <div class="col-6" style=" background-color: #F8F7FD; padding: 20px;" >
-                                <div style="padding: 40px;">
+                            <div class="col-6 " style=" background-color: #F8F7FD; padding: 20px; ">
+                                <div style="padding: 40px; ">
                                 </div>
-                                <input type="text" class="form-control" placeholder="Username">
-                                <div style="padding: 10px;">
+                                <input type="text " class="form-control " placeholder="Username ">
+                                <div style="padding: 10px; ">
                                 </div>
-                                <input type="password" class="form-control" placeholder="Password">
-                                <div style="padding: 10px;">
+                                <input type="password " class="form-control " placeholder="Password ">
+                                <div style="padding: 10px; ">
                                 </div>
-                                <div style="padding-right: 30%;">
-                                    <button type="button "class="btn form-control">Login <i class="fa fa-sign-in"></i></button>
+                                <div style="padding-right: 30%; ">
+                                    <button type="button " class="btn form-control ">Login <i class="fa fa-sign-in "></i></button>
                                 </div>
 
                             </div>
-                            
+
                         </div>
-                        
+
                     </div>
                 </div>
-                <div class="col-2">
-                    
+                <div class="col-2 ">
+
                 </div>
-                
+
             </div>
         </div>
-        
-    
 
         <!-- Footer -->
         <footer class="page-footer font-small pt-4 d-flex justify-content-around mt-4">
 
-            <div class="contacts">
+            <div class="contacts w-100">
                 <h6>Contact</h6>
 
                 <p>
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> Ikeja, Lagos, Nigeria
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>Ikeja, Lagos, Nigeria
                 </p>
                 <p>
                     <ion-icon name="call"></ion-icon> 080376811156
                 </p>
-                <p>
-                    <i class="fa fa-at" aria-hidden="true"></i> info@depoconnet.com
+                <p class="w-100">
+                    <i class="fa fa-at" aria-hidden="true"></i>info@depoconnet.com
                 </p>
 
 
@@ -114,26 +147,23 @@
             <div class="link mt-4">
 
                 <div class="social-links ">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                    <ion-icon name="logo-instagram"></ion-icon>
-                    <ion-icon name="logo-twitter"></ion-icon>
                     <ion-icon name="logo-linkedin"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
                 </div>
                 <div class="copyright">
-                    <i class="far fa-copyright" aria-hidden="true"></i> Copyright 2021 NBAIJEKA. All rights reserved.
+                    <i class="far fa-copyright" aria-hidden="true"></i>Copyright 2021 NBAIJEKA. All rights reserved.
 
                 </div>
         </footer>
-
         <!-- End of Footer -->
-
     </section>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
+    <script src="assets/js/app.js "></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js "></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js "></script>
 </body>
 
 </html>
